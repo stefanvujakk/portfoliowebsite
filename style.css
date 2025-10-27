@@ -1,0 +1,89 @@
+/* General Styles */
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.pfp {
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+    transition: color 0.3s;
+}
+
+.header a:hover {
+    color: #0073e6;
+}
+
+/* Sections */
+.about, .project, .contacts {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.about_photo {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #000;
+}
+
+.about_text, .projects_text, .contact_link, .fiverr_link {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    max-width: 600px;
+    color: black;
+    text-decoration: none;
+}
+
+.contact_link:hover, .fiverr_link:hover {
+    color: #0073e6;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header a {
+        margin: 5px 0 0 0;
+    }
+
+    .about_photo {
+        width: 100px;
+    }
+}
