@@ -6,7 +6,7 @@ A personal portfolio website to showcase my skills in web development. Built usi
 - Contact section with links to Fiverr, email, and GitHub
 - Smooth scrolling and responsive design
 ## Installation
-1. Clone the repository:git clone https://github.com/stefanvujakk/portfoliowebsite
+1. Clone the repository: git clone https://github.com/stefanvujakk/portfoliowebsite
 2. Open `index.html` in your browser
 ## Technologies used:
 - HTML5
