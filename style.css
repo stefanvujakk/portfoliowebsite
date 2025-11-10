@@ -108,7 +108,7 @@ body {
 .projects-wrapper{
     display: flex;
     flex-direction: row;
-    justify-content: cetner;
+    justify-content: center;
     align-items: center;
     text-align: center;
     padding-bottom: -10px;
