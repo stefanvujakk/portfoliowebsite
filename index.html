@@ -10,9 +10,12 @@
     <!-- Header / Navigation -->
     <div class="header">
         <img src="photos/fiverrpfp.png" alt="Profile photo" class="pfp">
-        <a href="#about" class="link">About Me</a>
-        <a href="#projects" class="link">My Projects</a>
-        <a href="#contact" class="link">Contact Me</a>
+            <button id="menu-button">MENU</button>
+                <ul>
+                    <li><a href="#about" class="link">About Me</a></li>
+                    <li><a href="#projects" class="link">My Projects</a></li>
+                    <li><a href="#contact" class="link">Contact Me</a></li>
+                </ul>
     </div>
 
     <!-- About Me Section -->
@@ -26,16 +29,24 @@
     </section>
 
     <!-- Projects Section -->
-    <section class="projects" id="projects">
+    <section class="projects-section" id="projects-section">
         <h1 class="project_header">Projects</h1>
-        <div class="projects">
-            <div class="project">
-                <p class="projects_text">Small cafe landing page</p>
-                <div class="live-code">
-                    <a href="https://landingpageprojectstefanvujakk.netlify.app/" class="code-live" target="_blank">Live</a>
-                    <a href="https://github.com/stefanvujakk/landing-page-for-a-cafe" class="code-live" target="_blank">Code</a>
+        <div class="projects-wrapper">
+            <button id="left-btn"><i class="arrow"><</i></button>
+            <div class="projects">
+                <div class="project">
+                    <p class="projects_text">Small cafe landing page</p>
+                    <div class="live-code">
+                        <img src="photos/first-project.png" alt="">
+                        <a href="https://landingpageprojectstefanvujakk.netlify.app/" class="code-live" target="_blank">Live</a>
+                        <a href="https://github.com/stefanvujakk/landing-page-for-a-cafe" class="code-live" target="_blank">Code</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <p>placeholder until I make a new project</p>
                 </div>
             </div>
+            <button id="right-btn"><i class="arrow">></i></button>
         </div>
     </section>
 
@@ -58,5 +69,6 @@
             </a>
         </p>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
